@@ -9,15 +9,19 @@ import Footer from './Footer';
 function Home() {
   return (
     <div className="App">
-      <div className="fixedHeader">
-        <p>Hi, I'm Chiebuka but you can always call me Chi-Chi</p>
-        <p>Software Engineer | Creative | Biologist</p>
-        <Link to="/#Portfolio">
-          <button>
-            Check out my work
-          </button>
-        </Link>
-      </div>
+      <header>
+        <div className="fixedHeader">
+          <div className="headertext">
+            <p className="headertextptag">Hi, I'm Chiebuka</p>
+            <p className="headertextptag">Software Engineer | Creative | Biologist</p>
+            <Link to="/#Portfolio">
+              <button>
+                Check out my work
+              </button>
+            </Link>
+          </div>
+        </div>
+      </header>
       <Navbar />
       <About />
       <Portfolio />
