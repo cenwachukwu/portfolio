@@ -16,7 +16,7 @@ function Home() {
             <p className="headertextptag">Software Engineer | Creative | Biologist</p>
             <Link to="/#Portfolio">
               <button>
-                Check out my work
+                Take a peak at my work
               </button>
             </Link>
           </div>
@@ -25,13 +25,15 @@ function Home() {
       <Navbar />
       <About />
       <Portfolio />
-      <div className="contactBox">
-        <p>Feel free to drop by and say hi</p>
-        <Link to="/Contact">
-          <button>
-            send me a message
+      <div className="contactBoxContainer">
+        <div className="contactBox">
+          <p>Feel free to drop by and say hi</p>
+          <Link to="/Contact">
+            <button className="sendMessageButton">
+              send me a message
           </button>
-        </Link>
+          </Link>
+        </div>
       </div>
       <Footer />
 
