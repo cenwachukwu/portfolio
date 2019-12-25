@@ -11,7 +11,7 @@ function About() {
                 <div className="aboutIconsContainerParent">
                     <div className="aboutIconsContainer">
                         <i class="fas fa-microscope aboutIcons"></i>
-                        <i class="fas fa-plus aboutIcons"></i>
+                        <i class="fas fa-plus aboutIcons1"></i>
                         <i class="fas fa-desktop aboutIcons"></i>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ function About() {
                             </div>
                             <div className="storyBoxTextBox">
                                 <p className="storyBoxText">
-                                    Fastforward to 2018, I started working with a tech start-up and out of curiosity, I started teching myself python.
+                                    Fastforward to 2018, I started working with a tech start-up and out of curiosity, I started teaching myself python.
                                 </p>
                             </div>
 
@@ -103,7 +103,7 @@ function About() {
                             </div>
                             <div className="storyBoxTextBox">
                                 <p className="storyBoxText">
-                                What's next? I want to keep growing my programming skills while fulfiling my passion of creating user-friendly and aesthetically pleasing applications. I also want to visit Croatia!
+                                What's next? I want to keep growing my programming skills while fulfiling my passion of creating user-friendly and aesthetically pleasing applications. <br/>Oh! I also want to visit Croatia!
                                 </p>
                             </div>
                         </div>

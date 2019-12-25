@@ -14,7 +14,7 @@ function Home() {
           <div className="headertext">
             <p className="headertextptag">Hi, I'm Chiebuka</p>
             <p className="headertextptag">Software Engineer | Creative | Biologist</p>
-            <Link to="/#Portfolio">
+            <Link to="/Applications">
               <button>
                 Take a peak at my work
               </button>

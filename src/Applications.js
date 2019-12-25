@@ -6,9 +6,11 @@ import Footer from './Footer';
 function Applications() {
   return (
     <div>
-        <Navbar/>
-      <h2>this is Applications</h2>
-      <Footer/>
+      <Navbar />
+      <div className="contactConatinerParent">
+        
+      </div>
+      <Footer />
     </div>
   );
 }
