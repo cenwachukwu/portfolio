@@ -3,7 +3,7 @@ import './App.css';
 
 function About() {
     return (
-        <div className="aboutDivParent">
+        <div className="aboutDivParent" id="About">
             <div className="aboutDivContainer">
                 <div className="aboutCatchPhrase">
                     <h3 className="aboutCatchPhraseHTag">The gap between Biology and Technology</h3>

@@ -4,7 +4,7 @@ import './App.css';
 
 function Portfolio() {
     return (
-        <div className="portfolioContainerParent">
+        <div className="portfolioContainerParent" id="Portfolio">
             <div className="portfolioContainer">
                 <h2 className="portfolioContainerHtag">Portfolio</h2>
                 <div className="portfolioIconContainer">

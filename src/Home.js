@@ -14,11 +14,11 @@ function Home() {
           <div className="headertext">
             <p className="headertextptag">Hi, I'm Chiebuka</p>
             <p className="headertextptag">Software Engineer | Creative | Biologist</p>
-            <Link to="/Applications">
+            <a href="#Portfolio">
               <button>
                 Take a peak at my work
               </button>
-            </Link>
+            </a>
           </div>
         </div>
       </header>

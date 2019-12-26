@@ -14,10 +14,10 @@ function Navbar(props) {
                 <div className="NavLinks">
                     <ul className="NavBarLinks">
                         <li>
-                            <Link to="/#About">About</Link>
+                            <a href="#About">About</a>
                         </li>
                         <li>
-                            <Link to="/#Portfolio">Portfolio</Link>
+                            <a href="#Portfolio">Portfolio</a>
                         </li>
                         <li>
                             <Link to="/Resume">Resume</Link>
