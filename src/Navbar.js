@@ -17,7 +17,7 @@ function Navbar(props) {
                             <a href="https://cenwachukwu.netlify.com/#About">About</a>
                         </li>
                         <li>
-                            <a href="#Portfolio">Portfolio</a>
+                            <a href="https://cenwachukwu.netlify.com/#Portfolio">Portfolio</a>
                         </li>
                         <li>
                             <Link to="/Resume">Resume</Link>
