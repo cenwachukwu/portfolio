@@ -14,7 +14,7 @@ function Navbar(props) {
                 <div className="NavLinks">
                     <ul className="NavBarLinks">
                         <li>
-                            <a href="#About">About</a>
+                            <a href="https://cenwachukwu.netlify.com/#About">About</a>
                         </li>
                         <li>
                             <a href="#Portfolio">Portfolio</a>
