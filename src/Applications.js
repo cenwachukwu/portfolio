@@ -3,32 +3,41 @@ import './App.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
 
-
+function Modal(props) {
+  console.log(props)
+  return (
+    <div>
+      {props.children}
+    </div>
+  )
+}
 
 function Project({ projects, openModal }) {
   console.log(openModal)
   const imageUrl = projects.backgroundImage;
   return (
-    <div className="projectsBox">
-      <div className="projectName">
-        <div style={{ backgroundImage: `url(${imageUrl})` }} className="projectImage"></div>
-        <p>{projects.name}</p>
+    <Modal>
+      <div className="projectsBox">
+        <div className="projectName">
+          <div style={{ backgroundImage: `url(${imageUrl})` }} className="projectImage"></div>
+          <p>{projects.name}</p>
+        </div>
+        <div className="projectDescriptionDiv">
+          <div className="projectDescription">
+            <span className="descriptionSpan">Technologies:    </span>
+            <p>{projects.technologies}</p>
+          </div>
+          <div className="projectDescription">
+            <span className="descriptionSpan">Description:</span>
+            <p>{projects.description}</p>
+          </div>
+          <div className="projectDescription" id="stack">
+            <span className="descriptionSpan">GitHub:    </span>
+            <a href={projects.github} target="_blank" rel="noopener noreferrer" id="blacklinktag">{projects.github}</a>
+          </div>
+        </div>
       </div>
-      <div className="projectDescriptionDiv">
-        <div className="projectDescription">
-          <span className="descriptionSpan">Technologies:    </span>
-          <p>{projects.technologies}</p>
-        </div>
-        <div className="projectDescription">
-          <span className="descriptionSpan">Description:</span>
-          <p>{projects.description}</p>
-        </div>
-        <div className="projectDescription" id="stack">
-          <span className="descriptionSpan">GitHub:    </span>
-          <a href={projects.github} target="_blank" id="blacklinktag">{projects.github}</a>
-        </div>
-      </div>
-    </div>
+    </Modal>
   )
 }
 

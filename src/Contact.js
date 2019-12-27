@@ -29,15 +29,15 @@ const StyledTextField = withStyles({
     },
 })(TextField);
 
-const StyledMessageField = withStyles({
-    root: {
-        width: "90%",
-        padding: "25rem"
-    },
-    label: {
-        textTransform: 'capitalize',
-    },
-})(TextField);
+// const StyledMessageField = withStyles({
+//     root: {
+//         width: "90%",
+//         padding: "25rem"
+//     },
+//     label: {
+//         textTransform: 'capitalize',
+//     },
+// })(TextField);
 
 function Contact() {
 
