@@ -1,5 +1,4 @@
 export default [
-
   {
     name: "Cotripper",
     description: "Built an open-source full-stack application to facilitate an organized group travel experience for single mothers. My contributions included developing Banner and Modal component libraries and collaborating with a team of five engineers to build out the 'Book a trip' page.  Over 25 engineers collaborated on this project using agile (kanban) methodologies, morning and afternoon standing-ups, and GitHub workflow.",
@@ -7,6 +6,7 @@ export default [
     github: "https://github.com/CotripperPlatform/CoTrip",
     Stack: "Django (Back-end), Reacto (Front-end), SQL (Storage)",
     backgroundImage: require("./images/cotippeer.png"),
+    deployed: false,
   },
   {
     name: "theNotesCli",
@@ -15,6 +15,7 @@ export default [
     github: "https://github.com/cenwachukwu/pythonCLIProject",
     Stack: "Python",
     backgroundImage: require("./images/meddirectoryapi.gif"),
+    deployed: false,
   },
   {
     name: "A Component Library ",
@@ -23,6 +24,7 @@ export default [
     github: "https://github.com/cenwachukwu/A-Component-Library",
     Stack: "React",
     backgroundImage: require("./images/storybook.png"),
+    deployed:  'https://gifted-hamilton-0abe26.netlify.com',
   },
 
 ]

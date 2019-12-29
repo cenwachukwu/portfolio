@@ -484,3 +484,11 @@ form{
   color: white;
   padding: 0.5rem;
 }
+
+.apadding{
+  padding: 0.5rem;
+}
+
+.apadding:hover{
+  color: rgba(255, 0, 255, 0.45);
+}
