@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import './App.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import { Button, } from "@material-ui/core";
 import ProjectData from "./ProjectData"
 
 function Modal(props) {
