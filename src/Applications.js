@@ -70,7 +70,7 @@ function Applications() {
       <div>
         <div className="modalBox">
           <div className="projectName">
-            <div style={{ backgroundImage: `url(${imageUrl})` }} className="projectImage"></div>
+            <div style={{ backgroundImage: `url(${imageUrl})` }} className="projectImage imageModal"></div>
             <p className="projectnamewhite">{projects[1].project.name}</p>
           </div>
           <div className="projectDescriptionDiv">

@@ -36,7 +36,8 @@ header{
 
 .fixedHeader:before {
   content: '';
-  background: url('./images/backupheader.JPG') no-repeat center center/cover;
+  background: url('./images/backupheader.JPG') no-repeat center;
+  background-size: cover;
   background-attachment: fixed;
   position: absolute;
   top: 0;
@@ -343,7 +344,7 @@ form{
   height: 100% ;
   padding: 3rem;
   border: 3px solid;
-  border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+  border-image: conic-gradient(red, yellow, magenta, aqua, blue, magenta, red) 1;
 }
 
 .projectsParents{
@@ -373,8 +374,6 @@ form{
 .projectName{
   width: 60%;
   height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -384,8 +383,10 @@ form{
 }
 
 .projectImage{
-  width: 85%;
-  height: 15rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 150%;
+  height: 20rem;
   margin-bottom: 1.5rem;
 }
 
@@ -452,6 +453,10 @@ form{
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.imageModal{
+  width: 80%;
 }
 
 .projectDescriptionDiv{
