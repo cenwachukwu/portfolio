@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Link } from 'react-router-dom';
+import Resume from './cenwachukwuu-resume.pdf'
 
 function Navbar(props) {
     return (
@@ -20,7 +21,8 @@ function Navbar(props) {
                             <a href="https://cenwachukwu.netlify.com/#Portfolio">Portfolio</a>
                         </li>
                         <li>
-                            <Link to="/Resume">Resume</Link>
+                            {window.innerWidth < 768 ? <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a> :
+                                <Link to="/Resume">Resume</Link>}
                         </li>
                         <li>
                             <Link to="/Contact">Contact</Link>
