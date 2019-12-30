@@ -19,6 +19,8 @@ body{
 header{
   margin: 0px;
   padding: 0px;
+  min-height: 100vh;
+  width: 100%;
 }
 
 :root {
@@ -30,7 +32,8 @@ header{
 .fixedHeader {
   background: var(--primary-color);
   color: #fff;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   position: relative;
 }
 
