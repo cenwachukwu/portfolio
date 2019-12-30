@@ -29,16 +29,6 @@ const StyledTextField = withStyles({
     },
 })(TextField);
 
-// const StyledMessageField = withStyles({
-//     root: {
-//         width: "90%",
-//         padding: "25rem"
-//     },
-//     label: {
-//         textTransform: 'capitalize',
-//     },
-// })(TextField);
-
 function Contact() {
 
     return (
@@ -50,7 +40,7 @@ function Contact() {
                 </div>
                 <div className="contactTextContainer">
                     <p>
-                        If you’d like to stop by to say “hi", just send me a message at cenwachukwuu@gmail.com or fill out the form below. I’ll get back to you as soon as possible.
+                        If you’d like to stop by to say “hi", just send me a message at <span className="contactEmail"> cenwachukwuu@gmail.com </span> or fill out the form below. I’ll get back to you as soon as possible.
                     </p>
                 </div>
                 <div className="contactContainerdiv">
