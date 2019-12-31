@@ -16,10 +16,18 @@ function DrawerToggleButton() {
                     <div>
                         <div>
                             <ul>
-                                <li><a href="#">IvyPark</a></li>
-                                <li><a href="#">BeyGood</a></li>
-                                <li><a href="#">Homecoming</a></li>
-                                <li><a href="#">Lion King - The Gift</a></li>
+                                <li>
+                                    <a href="https://cenwachukwu.netlify.com/#About">About</a>
+                                </li>
+                                <li>
+                                    <a href="https://cenwachukwu.netlify.com/#Portfolio">Portfolio</a>
+                                </li>
+                                <li>
+                                    <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a>                                       
+                                </li>
+                                <li>
+                                    <Link to="/Contact">Contact</Link>
+                                </li>
                             </ul>
                         </div>
                     </div>
