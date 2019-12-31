@@ -54,7 +54,7 @@
   
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px), (max-width:414px){
     .portfolioImage{
         height: 6rem;
         width: 6rem; 

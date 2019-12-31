@@ -69,12 +69,11 @@
   }
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px), (max-width:414px){
   .contactConatinerParent{
   height: 100%;
-}
-.contactHeader{
+  }
+  .contactHeader{
   margin-top: 7rem;
-}
-  
+  } 
 }
