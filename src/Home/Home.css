@@ -22,7 +22,7 @@ header{
 .fixedHeader:before {
     content: '';
     background: url('../images/backupheader.JPG') no-repeat center/cover;
-    background-size: cover;
+    background-size: contain/cover;
     background-attachment: fixed;
     position: absolute;
     top: 0;
