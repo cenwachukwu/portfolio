@@ -66,4 +66,26 @@ li{
     list-style: none;
     padding: 0 2rem;
 }
+
+/* contact me */
+.contactBoxContainer{
+    width: 100%;
+    height: 10rem;
+    border: 2px solid;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+    padding: 2rem;
+    background: rgba(255, 0, 255, 0.07);
+  }
+  
+  .sendMessageButton{
+    background: white;
+    color: black;
+    border: 1px solid;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+  }
+  
+  .sendMessageButton:hover{
+    background: rgba(255, 0, 255, 0.15);
+    color: rgba(255, 0, 255, 0.35);
+  }
   

@@ -1,0 +1,50 @@
+/* Contact */
+.contactConatinerParent{
+    padding: 1rem;
+    min-height: 90vh;
+    width: 100%;
+    border: 3px solid;
+    border-image: conic-gradient(red, yellow, lime, aqua, blue, magenta, red) 1;
+  }
+  .contactContainerdiv{
+    margin: 0 auto;
+    padding: 2rem;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
+  .inputContainer{
+    margin: 1.4rem;
+    width: 100%;
+  }
+  form{
+    width: 100%;
+  }
+  .contactTextContainer{
+    margin-top: 2.5rem;
+  }
+  .contactHeader{
+    margin-top: 4rem;
+    font-size: 1.8rem;
+    font-family: 'Mansalva', cursive;
+  }
+  .contactEmail{
+    text-decoration: underline;
+  }
+  
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .contactConatinerParent{
+        height: 100%;
+        padding: 5rem;
+        padding-top: 10rem;
+        min-height: 100vh;
+    }
+}

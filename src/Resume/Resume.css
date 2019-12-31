@@ -1,0 +1,175 @@
+/* resume */
+.resumeParent{
+    margin: 3rem auto;
+    
+    /* border: 2px black solid; */
+    width: 100%;
+    /* text-align: left; */
+}
+  
+.resumeContainer{
+    margin: 0 auto;
+    padding: 2rem;
+    padding-left: 4rem;
+    width: 80%; 
+}
+  
+.resumeContent{
+    
+    padding: 0;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+}
+  
+.resumeLeft{
+    width: 50%;
+}
+  
+.resumeRight{
+    margin-left: -12rem;
+    width: 120%;
+}
+  
+.resumeTitle{
+    margin-bottom: 2rem;
+}
+   
+.resumeTitle-top{
+    margin-top: 4rem;
+}
+  
+.ppp{
+    margin: 3rem auto;
+    text-align: left;
+    font-family: 'Mansalva', cursive;
+    font-size: 3rem;
+}
+  
+.content-align-left{
+    text-align: left;
+    margin-bottom: 1rem;
+    font-family: 'PT Serif', serif;
+    font-size: 1.2rem;
+    color: #333333;
+}
+  
+.topic{
+    font-size: 1.6rem;
+    font-family: 'PT Serif', serif;
+    color: rgba(0, 0, 0, 0.6);
+}
+  
+.subTopic{
+    font-size: 0.9rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+  
+.resumeListParent{
+    margin-top: 1rem;
+}
+  
+.resumeList{
+    font-size: 1rem;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-left: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+  
+.blackIconn{
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 1rem;
+    margin-right: 0.6rem;
+}
+  
+.libraries{
+    margin-top: 3rem;
+}
+  
+.caps{
+    text-transform: uppercase;
+}
+  
+.experienceTITLE{
+    margin-top: 3rem;
+}
+  
+  
+.ResumeExperienceBox{
+    
+    margin-left: 1rem;
+    padding: 1rem 0.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.45);
+}
+  
+.resumeExperience{
+    display: list-item;
+    list-style: disc;
+    list-style-position: outside;
+    text-align: justify;
+    padding: 0.5rem;
+    padding-left: 0;
+  
+}
+  
+.Projects{
+    margin-top: 4rem;
+  
+}
+  
+.resumeAtag{
+    color: #222222;
+    text-decoration: underline;
+    font-weight: 800;
+    margin-right: 0.5rem;
+    font-family: 'PT Serif', serif;
+    
+  
+}
+  
+.resumeProjects{
+    text-align: justify;
+    margin: 1rem auto;
+    line-height: 1.4rem;
+  
+}
+  
+  
+.pro{
+    margin: 0.5rem auto;
+    padding: 0.5rem auto;
+  
+}
+  
+  
+.educationResume{
+    margin-bottom: 2rem;
+  
+}
+  
+  
+.subEducation{
+    font-size: 1rem;
+}
+  
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .resumeContainer{
+        width: 100%; 
+    }
+
+    .resumeRight{
+        margin-left: -12rem;
+        width: 120%;
+    }
+}
+  

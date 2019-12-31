@@ -1,7 +1,8 @@
 import React from 'react';
-import './App.css';
-import Navbar from './Navbar/Navbar';
-import Footer from './Footer';
+import '../App.css';
+import './Resume.css';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
 
 function Resume() {
   return (

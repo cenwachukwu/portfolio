@@ -1,7 +1,8 @@
 import React from 'react';
-import './App.css';
-import Navbar from './Navbar/Navbar';
-import Footer from './Footer';
+import '../App.css';
+import './Contact.css';
+import Navbar from '../Navbar/Navbar';
+import Footer from "../Footer/Footer"
 import { TextField, Button } from '@material-ui/core';
 import { withStyles, } from '@material-ui/core/styles';
 

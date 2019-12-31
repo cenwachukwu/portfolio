@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import '../App.css';
 import './Home.css';
 import Navbar from '../Navbar/Navbar';
-import About from '../About';
+import About from '../About/About';
 import Portfolio from '../Portfolio';
-import Footer from '../Footer';
+import Footer from '../Footer/Footer';
 
 function Home() {
   return (

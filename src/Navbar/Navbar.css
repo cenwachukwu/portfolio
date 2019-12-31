@@ -36,3 +36,15 @@
   padding-top: 0.5rem;
 }
 
+/* ----------- iPad Pro 12.9" ----------- */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .navBarContainer{
+    width: 95%; 
+   padding: 1.5rem;
+   padding-bottom: 0;
+  }
+}
+

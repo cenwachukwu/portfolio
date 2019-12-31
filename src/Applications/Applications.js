@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import './App.css';
-import Navbar from './Navbar/Navbar';
-import Footer from './Footer';
-import ProjectData from "./ProjectData"
+import '../App.css';
+import './Applications.css';
+import Navbar from '../Navbar/Navbar';
+import Footer from '../Footer/Footer';
+import ProjectData from "./ProjectData";
 
 function Modal(props) {
   return (
