@@ -7,8 +7,8 @@
 }
 .footerDiv{
     margin: 0 auto;
-      padding: 1rem;	
-      display: flex;
+    padding: 1rem;	
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 100%;
