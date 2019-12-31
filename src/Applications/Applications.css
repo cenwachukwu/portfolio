@@ -254,3 +254,19 @@
         margin: 70px auto;
     }
 }
+
+@media only screen and (max-width: 500px){
+    .projectsBox{
+        height: 25rem;
+    }
+    .imageModal{
+        margin-top: 1.5rem;
+        width: 125%; 
+    }
+    .projectDescription{
+        flex-direction: column;
+    }
+    #stack{
+        flex-direction: row;
+    }
+}

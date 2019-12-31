@@ -106,7 +106,7 @@ function About() {
                             </div>
                             <div className="storyBoxTextBox">
                                 <p className="storyBoxText">
-                                What's next? I want to keep growing my programming skills while fulfiling my passion of creating user-friendly and aesthetically pleasing applications. <br/>Oh! I also want to visit Croatia!
+                                What's next? <br/>I want to keep growing my programming skills while fulfiling my passion of creating user-friendly and aesthetically pleasing applications. <br/>Oh! I also want to visit Croatia!
                                 </p>
                             </div>
                         </div>

@@ -124,6 +124,14 @@
     }
 }
 
+@media only screen and (max-width: 868px){
+    .StoryDivContainer{
+        margin: 2rem auto;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+    }
+}
+
 @media only screen and (max-width: 768px){
     .aboutCatchPhrase{  
         font-size: 1.6rem;
@@ -137,7 +145,6 @@
     }
     .StoryDivContainer{
         margin: 2rem auto;
-        grid-template-columns: repeat(2, 1fr);
         width: 95%;
     }
 }
@@ -156,5 +163,28 @@
     }
     .StoryDivContainer{
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 589px){
+
+    .aboutIcons{
+        font-size: 8.5rem;
+    }
+
+    .aboutIcons1{
+        font-size: 4.5rem;
+    }
+
+    .StoryDivContainer{
+        grid-template-columns: repeat(1, 1fr);
+        width: 78%;
+    }
+    .storyBoxNumber{
+        margin-top: 3rem auto;
+    }
+
+    .brandStatementContainerPtag{
+        width: 90%;
     }
 }
