@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './App.css';
-import Navbar from './Navbar';
-import About from './About';
-import Portfolio from './Portfolio';
-import Footer from './Footer';
+import '../App.css';
+import './Home.css';
+import Navbar from '../Navbar/Navbar';
+import About from '../About';
+import Portfolio from '../Portfolio';
+import Footer from '../Footer';
 
 function Home() {
   return (

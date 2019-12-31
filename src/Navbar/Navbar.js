@@ -1,13 +1,19 @@
 import React from 'react';
-import './App.css';
+import DrawerToggleButton from './DrawerToggleButton'
+import '../App.css';
+import './Navbar.css';
+
 import { Link } from 'react-router-dom';
-import Resume from './cenwachukwuu-resume.pdf'
+import Resume from '../cenwachukwuu-resume.pdf'
 
 function Navbar(props) {
     return (
         <div className="navContainer">
             <div className="navBarContainer">
-                <div>
+                <div className="sideBar">
+                    <div>
+                        <DrawerToggleButton/>
+                    </div>
                     <Link to="/">
                         <h2 className="homeLogo">cenwachukwu</h2>
                     </Link>
