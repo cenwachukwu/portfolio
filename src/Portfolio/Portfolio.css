@@ -6,6 +6,10 @@
     padding-top: 3.5rem;
     background: rgba(255, 0, 255, 0.07);
 }
+
+.portfolioContainer{
+    width: 100%;
+}
   
 .portfolioContainerHtag{
     font-family: 'Mansalva', cursive;
@@ -48,6 +52,22 @@
 .portfolioImage2{
     background: url(../images/blog.png)no-repeat center center/cover;
   
+}
+
+@media only screen and (max-width: 375px){
+    .portfolioImage{
+        height: 6rem;
+        width: 6rem; 
+    }
+    .portfolioIcon{
+        margin: 2rem 1rem;
+        margin-bottom: 1rem;
+        /* border: 1px solid black; */  
+    }
+
+    .portfolioATag{
+        font-size: 1rem;
+    }
 }
   
   

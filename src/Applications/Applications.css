@@ -270,3 +270,14 @@
         flex-direction: row;
     }
 }
+
+@media only screen and (max-width: 375px){
+    .projectsParents{
+        padding: 0;
+    }
+    .modal-wrapper {
+        margin: 70px 0;
+        width: 100%; 
+    }
+}
+

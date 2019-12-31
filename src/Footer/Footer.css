@@ -44,3 +44,9 @@ i{
         width: 40%;
     }
 }
+
+@media only screen and (max-width: 375px){
+    .footerDiv{
+        width: 60%;
+    }
+}

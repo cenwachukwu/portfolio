@@ -23,7 +23,7 @@ const StyledButton = withStyles({
 
 const StyledTextField = withStyles({
     root: {
-        width: "90%"
+        width: "100%"
     },
     label: {
         textTransform: 'capitalize',
