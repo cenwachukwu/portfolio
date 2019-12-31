@@ -19,7 +19,7 @@
   flex-direction: row;
   justify-content: space-between;
   height: 100%;
-  width: 70%; 
+  width: 75%; 
 }
 
 .homeLogo{
@@ -37,14 +37,12 @@
 }
 
 /* ----------- iPad Pro 12.9" ----------- */
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 1024px){
   .navBarContainer{
-    width: 95%; 
+    width: 94%; 
    padding: 1.5rem;
    padding-bottom: 0;
   }
 }
 
+ 

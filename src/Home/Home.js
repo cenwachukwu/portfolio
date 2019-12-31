@@ -4,7 +4,7 @@ import '../App.css';
 import './Home.css';
 import Navbar from '../Navbar/Navbar';
 import About from '../About/About';
-import Portfolio from '../Portfolio';
+import Portfolio from '../Portfolio/Portfolio';
 import Footer from '../Footer/Footer';
 
 function Home() {

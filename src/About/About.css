@@ -45,7 +45,7 @@
     line-height: 20px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.45);
     margin: 0 auto;
-    width: 75%;
+    width: 80%;
 }
 .aboutCatchPhrase2{
     margin: 0 auto;
@@ -59,7 +59,7 @@
 .StoryDivContainerParent{
     margin: 2rem auto;
     margin-bottom: 4rem;
-    width: 65%;
+    width: 83%;
     /* border: 2px solid black; */
 }
 .StoryDivContainer{
@@ -103,27 +103,17 @@
 }
 
 /* ----------- iPad Pro 12.9" ----------- */
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 1024px){
     .StoryDivContainerParent{
-        width: 87%;
+        width: 95%;
     }
     .brandStatementContainerPtag{
         text-align: justify;
     }
-}
-@media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-width: 1112px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .StoryDivContainerParent{
-        width: 87%;
+    .aboutCatchPhrase{
+        width: 85%;
     }
-    .brandStatementContainerPtag{
-        text-align: justify;
+    .aboutCatchPhrase2{
+        width: 100%;
     }
-
 }
-  

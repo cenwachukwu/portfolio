@@ -37,14 +37,10 @@
 /* ----------- iPad Pro 12.9" ----------- */
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 1024px){
     .contactConatinerParent{
         height: 100%;
         padding: 5rem;
-        padding-top: 10rem;
-        min-height: 100vh;
+        padding-top: 4rem;
     }
 }

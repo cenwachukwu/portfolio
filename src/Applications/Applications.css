@@ -207,10 +207,7 @@
 /* ----------- iPad Pro 12.9" ----------- */
 
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (max-width: 1024px) {
     .projectsParents{       
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -221,24 +218,4 @@
         margin: 17rem auto;
         width: 100%;
     }
-}
-
-/* ----------- iPad Pro 10.5" ----------- */
-
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 834px) 
-  and (max-device-width: 1112px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .projectsParents{       
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-        column-gap: 2rem;
-    }
-    .modal-wrapper {
-        margin: 17rem auto;
-        width: 100%;
-    }
-
 }
