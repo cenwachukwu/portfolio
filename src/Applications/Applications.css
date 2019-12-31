@@ -219,3 +219,38 @@
         width: 100%;
     }
 }
+
+@media only screen and (max-width: 768px){
+
+    .projectsParents{       
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        column-gap: 2rem;
+    }
+
+    .projectsBox{
+        padding: 1.2rem;
+        width: 100%;
+        height: 29rem;
+    }
+
+    .modalBox{
+        flex-direction: column;
+    }
+
+    .projectDescriptionDiv{
+        padding: 0;
+        border: none;
+        border-top: 1px solid rgba(255, 0, 255, 0.25);
+        margin-top: 1rem;
+    }
+
+    .imageModal{
+        width: 100%; 
+    }
+
+    .modal-wrapper {
+        margin: 70px auto;
+    }
+}

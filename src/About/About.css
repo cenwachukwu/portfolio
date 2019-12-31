@@ -123,4 +123,21 @@
         width: 100%;
     }
 }
-  
+
+@media only screen and (max-width: 768px){
+    .aboutCatchPhrase{  
+        font-size: 1.6rem;
+    }
+    .backgroundAnchor{
+        text-align: center;
+        padding: 1rem;
+        line-height: 2rem;
+        margin: 0 auto;
+        width: 90%;
+    }
+    .StoryDivContainer{
+        margin: 2rem auto;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+    }
+}

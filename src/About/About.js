@@ -24,7 +24,9 @@ function About() {
                 <div className="aboutCatchPhrase2">
                     <h3>My Story</h3>
                 </div>
-                <p>Since my background is a little unusual, I’m usually asked how I got involved with programming. Here’s how:</p>
+                <div className="brandStatementContainer">
+                <p className="backgroundAnchor">Since my background is a little unusual, I’m usually asked how I got involved with programming. Here’s how:</p>
+                </div>
                 <div className="StoryDivContainerParent">
                     <div className="StoryDivContainer">
                         <div className="StoryBox">
