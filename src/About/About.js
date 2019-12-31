@@ -28,7 +28,7 @@ function About() {
                 </div>
                 <div className="aboutIconsContainerParent">
                     <div className="aboutIconsContainer">
-                        <img src={Header} className="CenwachukwuPics" width='350'/>
+                        <img src={Header} className="CenwachukwuPics" width='550'/>
                     </div>
                 </div>
                 <div className="brandStatementContainer">
