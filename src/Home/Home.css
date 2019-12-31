@@ -22,7 +22,7 @@ header{
   
 .fixedHeader:before {
     content: ' ';
-    background: url('../images/backupheader.JPG') no-repeat center/cover;
+    background: url('../images/backupheader.JPG') no-repeat center center/contain;
     background-size: contain/cover;
     background-attachment: fixed;
     position: absolute;
@@ -98,10 +98,11 @@ li{
     .fixedHeader:before {
         background: url('../images/backupheader.JPG') no-repeat;
         background-size: contain;
+        height: 60vh;
     }
 
     header{
-        height: 50vh;
+        height: 60vh;
     }
 }
 
