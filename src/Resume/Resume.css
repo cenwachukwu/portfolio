@@ -166,7 +166,15 @@
 
     .resumeRight{
         margin-left: -10rem;
-        width: 120%;
+    }
+}
+
+@media only screen and (max-width: 896px){
+    .resumeLeft{
+        width: 60%;
+    }
+    .resumeRight{
+        margin-left: -7rem;
     }
 }
   
