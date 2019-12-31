@@ -40,11 +40,11 @@ function Contact() {
                     <h3>Contact Me</h3>
                 </div>
                 <div className="contactTextContainer">
-                    <p>
-                        If you’d like to stop by to say “hi", just send me a message at <span className="contactEmail"> cenwachukwuu@gmail.com </span> or fill out the form below. I’ll get back to you as soon as possible.
+                    <p className="lineheight">
+                        If you’d like to stop by to say “hi", just send me a message at <span className="contactEmail"> cenwachukwuu@gmail.com </span> or <br/> visit me on <a href="https://www.linkedin.com/in/cenwachukwu" target="_blank" rel="noopener noreferrer" className="a"><i className="fab fa-linkedin-in i"></i></a>. <br/>I’ll get back to you as soon as possible.
                     </p>
                 </div>
-                <div className="contactContainerdiv">
+                {/* <div className="contactContainerdiv">
                     <form>
 
                         <div className="inputContainer">
@@ -102,7 +102,7 @@ function Contact() {
                         <StyledButton variant="outlined" color="secondary" size="large">Send</StyledButton>
 
                     </form>
-                </div>
+                </div> */}
             </div>
             <Footer />
         </div>
