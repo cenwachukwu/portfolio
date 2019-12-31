@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import './About.css';
+import Header from "../images/headerpic.JPG";
 
 function About() {
     return (
@@ -21,6 +22,21 @@ function About() {
                         As a software engineer with a background in scientific research, I am well-versed in problem-solving. While the scientific method helps me discover empirical truths and patterns, programming gives wings to my creative mind. Together, these skills help me communicate and implement clear and concise technical solutions.
                     </p>
                 </div>
+
+                <div className="aboutCatchPhrase">
+                    <h3 className="aboutCatchPhraseHTag">Me</h3>
+                </div>
+                <div className="aboutIconsContainerParent">
+                    <div className="aboutIconsContainer">
+                        <img src={Header} className="CenwachukwuPics" width='350'/>
+                    </div>
+                </div>
+                <div className="brandStatementContainer">
+                    <p className="brandStatementContainerPtag">
+                      Software Engineer | Creative | Budding World Traveler
+                    </p>
+                </div>
+
                 <div className="aboutCatchPhrase2">
                     <h3>My Story</h3>
                 </div>
