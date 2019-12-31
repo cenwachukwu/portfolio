@@ -138,6 +138,6 @@
     .StoryDivContainer{
         margin: 2rem auto;
         grid-template-columns: repeat(2, 1fr);
-        width: 80%;
+        width: 83%;
     }
 }
