@@ -138,6 +138,23 @@
     .StoryDivContainer{
         margin: 2rem auto;
         grid-template-columns: repeat(2, 1fr);
-        width: 90%;
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 676px){
+    .aboutCatchPhrase{  
+        font-size: 1.4rem;
+    }
+
+    .aboutIcons{
+        font-size: 9.5rem;
+    }
+
+    .aboutIcons1{
+        font-size: 5.5rem;
+    }
+    .StoryDivContainer{
+        width: 100%;
     }
 }
