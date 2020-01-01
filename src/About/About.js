@@ -23,7 +23,7 @@ function About() {
                     </p>
                 </div>
 
-                <div className="aboutCatchPhrase">
+                <div className="aboutCatchPhrase2">
                     <h3 className="aboutCatchPhraseHTag">Me</h3>
                 </div>
                 <div className="aboutIconsContainerParent">
