@@ -28,11 +28,11 @@ function About() {
                 </div>
                 <div className="aboutIconsContainerParent">
                     <div className="aboutIconsContainer">
-                        <img src={Header} className="CenwachukwuPics" width='550'/>
+                        <img src={Header} className="CenwachukwuPics" width='700'/>
                     </div>
                 </div>
                 <div className="brandStatementContainer">
-                    <p className="brandStatementContainerPtag">
+                    <p className="MeCatchWords">
                       Software Engineer | Creative | Budding World Traveler
                     </p>
                 </div>
