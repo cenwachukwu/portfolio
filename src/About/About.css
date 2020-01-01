@@ -161,6 +161,10 @@
         margin: 2rem auto;
         width: 95%;
     }
+    .MeCatchWords{
+        font-size: 1.3rem;
+        width: 90%;
+    }
 }
 
 @media only screen and (max-width: 676px){
@@ -200,6 +204,13 @@
 
     .brandStatementContainerPtag{
         width: 90%;
+    }
+    .CenwachukwuPics{
+        width: 430px;
+    }
+
+    .MeCatchWords{
+        font-size: 1.1rem;
     }
 }
 
