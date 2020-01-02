@@ -28,7 +28,7 @@ export default [
   },
   {
     name: "Library ",
-    description: "Developed a component library of different styles of buttons, forms, inputs, and image cards which saves users the time of building basic components from scratch.",
+    description: "Developed a React component library of different styles of buttons, forms, inputs, and image cards which saves users the time of building basic components from scratch.",
     technologies: "Adobe XD, CSS,  NPM, React, Storybook",
     github: "https://github.com/cenwachukwu/A-Component-Library",
     Stack: "React",
