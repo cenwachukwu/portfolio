@@ -171,7 +171,7 @@ function Resume() {
                   <a href="https://github.com/cenwachukwu/pythonCLIProject" target="_blank" rel="noopener noreferrer" className="resumeAtag">theNotesCli:</a>
                   Developed a command-line application that has the ability to create, update and delete notes based on the user's request.                  </p>
                 <p className="resumeProjects">
-                  <a href="https://med-directory-cen.herokuapp.com/directory" target="_blank" rel="noopener noreferrer" className="resumeAtag">The CEN Company:</a>
+                  <a href="https://med-directory-cen.herokuapp.com/directory" target="_blank" rel="noopener noreferrer" className="resumeAtag">Medics:</a>
                   Developed a medical directory API that provides its users with the information of medical practitioners.                  </p>
                 <p className="resumeProjects">
                   <a href="https://gifted-hamilton-0abe26.netlify.com" target="_blank" rel="noopener noreferrer" className="resumeAtag">A Component Library:</a>

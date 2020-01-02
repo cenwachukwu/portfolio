@@ -19,8 +19,8 @@ export default [
   },
   {
     name: "Medics",
-    description: "Developed a component library of different styles of buttons, forms, inputs, and image cards which saves users the time of building basic components from scratch.",
-    technologies: "Adobe XD, CSS,  NPM, React, Storybook",
+    description: "Developed a medical directory API that provides its users with the information of medical practitioners.",
+    technologies: "Express.JS, Heroku, MongoDB, Mongoose ORM, Node.JS,",
     github: "https://github.com/cenwachukwu/a-food-and-drug-api",
     Stack: "React",
     backgroundImage: require("../images/api.jpeg"),
