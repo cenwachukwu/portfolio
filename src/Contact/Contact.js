@@ -41,7 +41,7 @@ function Contact() {
                 </div>
                 <div className="contactTextContainer">
                     <p className="lineheight">
-                        If you’d like to stop by to say “hi", just send me a message at <span className="contactEmail"> cenwachukwuu@gmail.com</span>  or <br/> visit me on <a href="https://www.linkedin.com/in/cenwachukwu" target="_blank" rel="noopener noreferrer" className="a"><i className="fab fa-linkedin-in i"></i></a> <br/>I’ll get back to you as soon as possible.
+                        If you’d like to stop by to say “hi", just send me a message at <a href="mailto:cenwachukwuu@gmail.com" className="a"><span className="contactEmail"> cenwachukwuu@gmail.com</span></a> or <br/> visit me on <a href="https://www.linkedin.com/in/cenwachukwu" target="_blank" rel="noopener noreferrer" className="a"><i className="fab fa-linkedin-in i"></i></a> <br/>I’ll get back to you as soon as possible.
                     </p>
                 </div>
                 {/* <div className="contactContainerdiv">
