@@ -19,10 +19,10 @@ function Navbar(props) {
                         <div className="NavLinks">
                             <ul className="NavBarLinks">
                                 <li>
-                                    <a href="https://cenwachukwu.netlify.com/#About">About</a>
+                                    <a href="https://cenwachukwu.com/#About">About</a>
                                 </li>
                                 <li>
-                                    <a href="https://cenwachukwu.netlify.com/#Portfolio">Portfolio</a>
+                                    <a href="https://cenwachukwu.com/#Portfolio">Portfolio</a>
                                 </li>
                                 <li>
                                     {window.innerWidth < 768 ? <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a> :
