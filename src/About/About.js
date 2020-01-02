@@ -24,7 +24,7 @@ function About() {
                 </div>
 
                 <div className="aboutCatchPhrase2">
-                    <h3 className="aboutCatchPhraseHTag">Me: Chiebuka Elizabeth Nwachukwu</h3>
+                    <h3 className="aboutCatchPhraseHTag">Chiebuka Elizabeth Nwachukwu</h3>
                 </div>
                 <div className="aboutIconsContainerParent">
                     <div className="aboutIconsContainer">
