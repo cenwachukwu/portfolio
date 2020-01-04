@@ -33,7 +33,7 @@ function About() {
                 </div>
                 <div className="brandStatementContainer">
                     <p className="MeCatchWords">
-                      Software Engineer | Creative | Budding World Traveler
+                      Software Engineer | Creative | Budding Globe Trotter
                     </p>
                 </div>
 
