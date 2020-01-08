@@ -9,6 +9,15 @@ export default [
     deployed: false,
   },
   {
+    name: "Medixs",
+    description: "A full-stack application that connects people with medical practioners across the United States. It allows users search for medical practioners using their last name, insurance uid, and specialities. The application also allows medical practioners create, edit, and delete their profiles.",
+    technologies: "React.JS, CSS, Reach Routers, Express.JS, MongoDB, Node.js",
+    github: "https://github.com/cenwachukwu/Medics",
+    Stack: "MERN",
+    backgroundImage: require("../images/medicx.png"),
+    deployed: 'https://medicx.netlify.com/',
+  },
+  {
     name: "theNotesCli",
     description: "Developed a command-line application that has the ability to create, update and delete notes based on the user's request.",
     technologies: "Peewee ORM, PostgreSQL, Psycopg2, Python",
