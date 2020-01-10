@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar';
 import Footer from "../Footer/Footer"
 import { TextField, Button } from '@material-ui/core';
 import { withStyles, } from '@material-ui/core/styles';
+import MobileNav from '../MobileNav/MobileNav';
 
 const StyledButton = withStyles({
     root: {
@@ -35,6 +36,7 @@ function Contact() {
     return (
         <div>
             <Navbar />
+            <MobileNav/>
             <div className="contactConatinerParent">
                 <div className="contactHeader">
                     <h3>Contact Me</h3>

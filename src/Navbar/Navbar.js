@@ -9,7 +9,7 @@ function Navbar(props) {
     return (
         <div className="navContainer">
             <div>
-                {window.innerWidth < 769 ? <div><DrawerToggleButton /></div> :
+                {/* {window.innerWidth < 769 ? <div><DrawerToggleButton /></div> : */}
                     <div className="navBarContainer">
                         <div>
                             <Link to="/">
@@ -33,7 +33,7 @@ function Navbar(props) {
                                 </li>
                             </ul>
                         </div>
-                    </div>}
+                    </div>
             </div>
         </div>
 

@@ -81,7 +81,7 @@ function About() {
                             </div>
                             <div className="storyBoxTextBox">
                                 <p className="storyBoxText">
-                                    Fastforward to 2018, I started working with a tech start-up and out of curiosity, I started teaching myself python.
+                                    Fastforward to 2018, I started working with a tech start-up and out of curiosity, I started to teach myself python.
                                 </p>
                             </div>
 
@@ -95,7 +95,7 @@ function About() {
                             </div>
                             <div className="storyBoxTextBox">
                                 <p className="storyBoxText four">
-                                My first python project – learning new information, the struggle of getting things to work, and how proud I was when it all came together - was all the push i needed to enroll in the Software Immersive Program at General Assembly DC.
+                                My first python project – learning new information, the struggle of getting things to work, and how proud I was when it all came together - was all the push i needed to enroll in the Software Engineering Immersive Program at General Assembly DC.
                                 </p>
                             </div>
 

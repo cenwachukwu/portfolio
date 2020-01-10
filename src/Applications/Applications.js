@@ -4,6 +4,7 @@ import './Applications.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
 import ProjectData from "./ProjectData";
+import MobileNav from "../MobileNav/MobileNav";
 
 function Modal(props) {
   return (
@@ -98,6 +99,7 @@ function Applications() {
   return (
     <div>
       <Navbar />
+      <MobileNav/>
       {projects[0].openModal ? <div onClick={handleCloseModal} className="back-drop-close-modal"></div> : null}
       <div className="projectsParentsContainer">
         {projects[0].openModal ? null :
