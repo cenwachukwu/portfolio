@@ -23,7 +23,7 @@ function About() {
                     </p>
                 </div>
 
-                <div className="aboutCatchPhrase2">
+                {/* <div className="aboutCatchPhrase2">
                     <h3 className="aboutCatchPhraseHTag">Chiebuka Elizabeth Nwachukwu</h3>
                 </div>
                 <div className="aboutIconsContainerParent">
@@ -35,7 +35,7 @@ function About() {
                     <p className="MeCatchWords">
                       Software Engineer | Creative | Budding Globe Trotter
                     </p>
-                </div>
+                </div> */}
 
                 <div className="aboutCatchPhrase2">
                     <h3>My Story</h3>
