@@ -1,5 +1,6 @@
 /* Application */
 .projectsParentsContainer{
+    margin: 0;
     width: 100%;
     min-height: 91vh;
     /* height: 100% ; */

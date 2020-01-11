@@ -5,11 +5,11 @@
     background-color: black;
     position: sticky;
 	top:0;
-    z-index: 1;
+    z-index: 1; 
 }
 .MobileNav__container{
     width: 100%;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .MobileNav__logo{
@@ -25,6 +25,6 @@
 
 @media only screen and (max-width: 1024px){
     .MobileNav{
-        display: inline-block;
+        display: block;
     }
 }
