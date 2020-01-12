@@ -27,7 +27,16 @@ export default [
     deployed: false,
   },
   {
-    name: "Medics",
+    name: "ChickFlix",
+    description: "Created a learning application which features flashcard decks and a scoring quiz game.",
+    technologies: "HTML, CSS, JavaSript,",
+    github: "https://github.com/cenwachukwu/Chick-Flix",
+    Stack: "Python",
+    backgroundImage: require("../images/chickflix.png"),
+    deployed: "https://chick-flix.netlify.com/",
+  },
+  {
+    name: "Medixs API",
     description: "Developed a medical directory API that provides its users with the information of medical practitioners.",
     technologies: "Express.JS, Heroku, MongoDB, Mongoose ORM, Node.JS,",
     github: "https://github.com/cenwachukwu/a-food-and-drug-api",

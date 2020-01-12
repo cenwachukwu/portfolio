@@ -52,8 +52,9 @@
   
   
 .projectImage{
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     width: 150%;
     height: 20rem;
     margin-bottom: 1.5rem;
