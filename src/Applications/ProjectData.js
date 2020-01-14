@@ -9,8 +9,8 @@ export default [
     deployed: false,
   },
   {
-    name: "Medixs",
-    description: "A full-stack application that connects people with medical practioners across the United States. It allows users search for medical practioners using their last name, insurance uid, and specialities. The application also allows medical practioners create, edit, and delete their profiles.",
+    name: "Medicx",
+    description: "Developed a  full-stack application that connects people with medical practitioners across the United States. It allows users to search for medical practitioners using their last name, insurance user id, and specialties. The application also allows medical practitioners to create, edit, and delete their profiles.",
     technologies: "React.JS, CSS, Reach Routers, Express.JS, MongoDB, Node.js",
     github: "https://github.com/cenwachukwu/Medics",
     Stack: "MERN",
@@ -36,7 +36,7 @@ export default [
     deployed: "https://chick-flix.netlify.com/",
   },
   {
-    name: "Medixs API",
+    name: "Medicx API",
     description: "Developed a medical directory API that provides its users with the information of medical practitioners.",
     technologies: "Express.JS, Heroku, MongoDB, Mongoose ORM, Node.JS,",
     github: "https://github.com/cenwachukwu/a-food-and-drug-api",

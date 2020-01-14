@@ -23,7 +23,7 @@ function Resume() {
                   <li className="resumeList caps"><i class="fab fa-css3 blackIconn"></i>css</li>
                     <li className="resumeList"><i class="fas fa-code blackIconn"></i>Javscript</li>
                     <li className="resumeList"><i class="fab fa-python blackIconn"></i>Python</li>
-                    <li className="resumeList"><i className="fa fa-code blackIconn"></i>Node.JS</li>
+                    
                   </ul>
                 </div>
               </div>
@@ -46,6 +46,7 @@ function Resume() {
                 </div>
                 <div>
                   <ul className="resumeListParent">
+                    <li className="resumeList"><i className="fa fa-code blackIconn"></i>Node.JS</li>
                     <li className="resumeList"><i class="fas fa-code blackIconn"></i>Django</li>
                     <li className="resumeList"><i class="fa fa-object-ungroup blackIconn"></i>React JS</li>
                     <li className="resumeList"><i class="fa fa-server blackIconn"></i>Express JS</li>
@@ -171,8 +172,8 @@ function Resume() {
                   <a href="https://github.com/cenwachukwu/pythonCLIProject" target="_blank" rel="noopener noreferrer" className="resumeAtag">theNotesCli:</a>
                   Developed a command-line application that has the ability to create, update and delete notes based on the user's request.                  </p>
                 <p className="resumeProjects">
-                  <a href="https://med-directory-cen.herokuapp.com/directory" target="_blank" rel="noopener noreferrer" className="resumeAtag">Medics:</a>
-                  Developed a medical directory API that provides its users with the information of medical practitioners.                  </p>
+                  <a href="https://medicx.netlify.com/" target="_blank" rel="noopener noreferrer" className="resumeAtag">Medicx:</a>
+                  Developed a  full-stack application that connects people with medical practitioners across the United States. It allows users to search for medical practitioners using their last name, insurance user id, and specialties. The application also allows medical practitioners to create, edit, and delete their profiles.</p>
                 <p className="resumeProjects">
                   <a href="https://gifted-hamilton-0abe26.netlify.com" target="_blank" rel="noopener noreferrer" className="resumeAtag">A Component Library:</a>
                   Developed a library of different styles of buttons, forms, inputs, and image cards which saves users the time of building basic components from scratch.                  </p>
