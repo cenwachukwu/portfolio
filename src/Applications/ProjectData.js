@@ -10,7 +10,7 @@ export default [
   },
   {
     name: "Medicx",
-    description: "Developed a  full-stack application that connects people with medical practitioners across the United States. It allows users to search for medical practitioners using their last name, insurance user id, and specialties. The application also allows medical practitioners to create, edit, and delete their profiles.",
+    description: "Developed a  full-stack application that connects people to medical practitioners across the United States. It allows users to search for medical practitioners using their last names, insurance user ids, and specialties. The application also allows medical practitioners to create, edit, and delete their profiles.",
     technologies: "React.JS, CSS, Reach Routers, Express.JS, MongoDB, Node.js",
     github: "https://github.com/cenwachukwu/Medics",
     Stack: "MERN",
