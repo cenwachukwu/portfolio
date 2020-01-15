@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Resume from './cenwachukwuu-resume.pdf';
+import Resume from './cenwachukwu.pdf';
 import "./Hamburger.css";
 import '../App.css';
 

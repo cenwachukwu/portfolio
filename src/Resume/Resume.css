@@ -154,6 +154,18 @@
 .subEducation{
     font-size: 1rem;
 }
+
+.pdfResume{
+    width: 20%;
+    border: 1px solid rgba(62, 63, 64,0.2);
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 10%;
+}
+
+.leftCorner{
+    margin: 0;
+}
   
 
 /* ----------- iPad Pro 12.9" ----------- */

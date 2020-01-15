@@ -3,13 +3,18 @@ import '../App.css';
 import './Resume.css';
 import Navbar from '../Navbar/Navbar';
 import Footer from '../Footer/Footer';
+import ResumePdf from '../MobileNav/cenwachukwu.pdf'
 
 function Resume() {
   return (
     <div>
       <Navbar />
       <div className="resumeParent">
+        
         <div className="resumeContainer">
+        <div className="pdfResume leftCorner">
+          <a href={ResumePdf} target="_blank" rel="noopener noreferrer" className="resumeAtag">Link to Resume PDF</a>
+        </div>
           <h2 className="ppp">Resume</h2>
           <div className="resumeContent">
             <div className="resumeLeft">
@@ -193,6 +198,9 @@ function Resume() {
               </div>
             </div>
           </div>
+        </div>
+        <div className="pdfResume">
+          <a href={ResumePdf} target="_blank" rel="noopener noreferrer" className="resumeAtag">Link to Resume PDF</a>
         </div>
       </div>
       <Footer />
