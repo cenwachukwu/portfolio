@@ -107,25 +107,21 @@ function Resume() {
               </div>
               <div className="experienceTITLE">
                 <h3 className="content-align-left">GENERAL ASSEMBLY DC</h3>
-                <h5 className="content-align-left subTopic">SOFTWARE ENGINEERING IMMERSIVE , Student  |  Sept. 2019​ - Current</h5>
+                <h5 className="content-align-left subTopic">SOFTWARE ENGINEERING IMMERSIVE , Student  |  Sept. 2019​ - Dec. 2019</h5>
               </div>
               <div className="ResumeExperienceBox">
                 <ul className="resumeExperienceUl">
                   <li className="resumeExperience">
-                    Collaborate with a team of over 25 software engineers and UI/UX designers to design, create, test, and document client projects in an agile environment.
+                  Collaborated with a team of over 25 software engineers and UI/UX designers on the design, implementation, testing, and documentation of client projects in an agile environment.                  </li>
+                  <li className="resumeExperience">
+                  Designed and developed functional and aesthetically pleasing user-interface using technologies such as  HTML, CSS, Javascript, and React.JS.                  </li>
+                  <li className="resumeExperience">
+                  Developed back-end language and framework proficiency with Python, Node.js, Express.js, and Django.
                   </li>
                   <li className="resumeExperience">
-                    Develop and design functional and efficient user interfaces with HTML, CSS, Javascript, and React.JS.
-                  </li>
+                  Utilized multiple database technologies including relational and non-relational databases.                  </li>
                   <li className="resumeExperience">
-                    Develop back-end language and framework proficiency with Python, Node.js, Express.js, and Django.
-                  </li>
-                  <li className="resumeExperience">
-                    Utilize multiple database technologies including NoSQL with MongoDB and Mongoose ORM, Postgres relational SQL with Django.
-                  </li>
-                  <li className="resumeExperience">
-                    Utilize a hands-on approach to develop real-world applications while maintaining two GitHub (GitHub & GH Enterprise) profiles with a combined commit history of 400+ contributions.
-                  </li>
+                  Utilized a hands-on approach to develop real-world applications while maintaining two GitHub (GitHub & GH Enterprise) profiles with a combined commit history of 400+ contributions.                  </li>
                 </ul>
               </div>
               <div className="experienceTITLE">
@@ -177,6 +173,10 @@ function Resume() {
                 <p className="resumeProjects">
                   <a href="https://gifted-hamilton-0abe26.netlify.com" target="_blank" rel="noopener noreferrer" className="resumeAtag">A Component Library:</a>
                   Developed a library of different styles of buttons, forms, inputs, and image cards which saves users the time of building basic components from scratch.                  </p>
+                <p className="resumeProjects">
+                  <a href="https://chick-flix.netlify.com/" target="_blank" rel="noopener noreferrer" className="resumeAtag">ChickFlix:</a>
+                  Created a learning application that features flashcard decks and a scoring quiz game.                
+                </p>
               </div>
               <div>
                 <h2 className="content-align-left Projects topic">Education & Training</h2>
