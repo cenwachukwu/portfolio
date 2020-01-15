@@ -19,7 +19,7 @@ function About() {
                 </div>
                 <div className="brandStatementContainer">
                     <p className="brandStatementContainerPtag">
-                        As a software engineer with a background in scientific research, I am well-versed in problem-solving. While the scientific method helps me discover empirical truths and patterns, programming gives wings to my creative mind. Together, these skills help me communicate and implement clear and concise technical solutions.
+                        As a software developer with a background in scientific research, I am well-versed in problem-solving. While the scientific method helps me discover empirical truths and patterns, programming gives wings to my creative mind. Together, these skills help me communicate and implement clear and concise technical solutions.
                     </p>
                 </div>
 
