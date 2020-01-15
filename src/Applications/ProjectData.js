@@ -28,7 +28,7 @@ export default [
   },
   {
     name: "ChickFlix",
-    description: "Created a learning application which features flashcard decks and a scoring quiz game.",
+    description: "Created a learning application that features flashcard decks and a scoring quiz game.",
     technologies: "HTML, CSS, JavaSript,",
     github: "https://github.com/cenwachukwu/Chick-Flix",
     Stack: "Python",
