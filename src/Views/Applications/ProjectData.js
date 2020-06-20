@@ -5,7 +5,7 @@ export default [
     technologies: "CSS, Django, Enzyme, Jest, Node.JS,  PostgreSQL, Python, React.JS, Storybook, SQL",
     github: "https://github.com/CotripperPlatform/CoTrip",
     Stack: "Django (Back-end), Reacto (Front-end), SQL (Storage)",
-    backgroundImage: require("../images/cotripper.jpeg"),
+    backgroundImage: require("../../utils/images/cotripper.jpeg"),
     deployed: false,
   },
   {
@@ -14,7 +14,7 @@ export default [
     technologies: "React.JS, CSS, Reach Routers, Express.JS, MongoDB, Node.js",
     github: "https://github.com/cenwachukwu/Medics",
     Stack: "MERN",
-    backgroundImage: require("../images/medicx.png"),
+    backgroundImage: require("../../utils/images/medicx.png"),
     deployed: 'https://medicx.netlify.com/',
   },
   {
@@ -23,7 +23,7 @@ export default [
     technologies: "Peewee ORM, PostgreSQL, Psycopg2, Python",
     github: "https://github.com/cenwachukwu/pythonCLIProject",
     Stack: "Python",
-    backgroundImage: require("../images/notes.gif"),
+    backgroundImage: require("../../utils/images/notes.gif"),
     deployed: false,
   },
   {
@@ -32,7 +32,7 @@ export default [
     technologies: "HTML, CSS, JavaSript,",
     github: "https://github.com/cenwachukwu/Chick-Flix",
     Stack: "Python",
-    backgroundImage: require("../images/chickflix.png"),
+    backgroundImage: require("../../utils/images/chickflix.png"),
     deployed: "https://chick-flix.netlify.com/",
   },
   {
@@ -41,7 +41,7 @@ export default [
     technologies: "Express.JS, Heroku, MongoDB, Mongoose ORM, Node.JS,",
     github: "https://github.com/cenwachukwu/a-food-and-drug-api",
     Stack: "React",
-    backgroundImage: require("../images/api.jpeg"),
+    backgroundImage: require("../../utils/images/api.jpeg"),
     deployed:  'https://med-directory-cen.herokuapp.com/directory',
   },
   {
@@ -50,7 +50,7 @@ export default [
     technologies: "Adobe XD, CSS,  NPM, React, Storybook",
     github: "https://github.com/cenwachukwu/A-Component-Library",
     Stack: "React",
-    backgroundImage: require("../images/library.jpeg"),
+    backgroundImage: require("../../utils/images/library.jpeg"),
     deployed:  'https://gifted-hamilton-0abe26.netlify.com',
   },
 

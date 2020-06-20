@@ -1,10 +1,11 @@
 import React, { useState } from "react";
-import '../App.css';
+// import '../App.css';
 import './Applications.css';
-import Navbar from '../Components/Navbar/Navbar';
-import Footer from '../Components/Footer/Footer';
+// import Navbar from '../Components/Navbar/Navbar';
+import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
 import ProjectData from "./ProjectData";
-import MobileNav from "../Components/MobileNav/MobileNav";
+import MobileNav from "../../Components/MobileNav/MobileNav";
 
 function Modal(props) {
   return (
