@@ -5,9 +5,7 @@ import { Link } from 'react-router-dom';
 import Home from './Views/Home/Home';
 import Resume from './Views/Resume/Resume';
 import Contact from './Views/Contact/Contact';
-import Applications from './Applications/Applications';
-import Navbar from './Components/Navbar/Navbar';
-import MobileNav from './Components/MobileNav/MobileNav';
+import Applications from './Views/Applications/Applications';
 
 function App() {
   return (
