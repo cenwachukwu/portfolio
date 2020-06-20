@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import emailjs from "emailjs-com";
+import React from 'react';
+// import emailjs from "emailjs-com";
 // import '../App.css';
 import './Contact.css';
 import Navbar from '../../Components/Navbar/Navbar';
@@ -8,29 +8,29 @@ import { TextField, Button } from '@material-ui/core';
 import { withStyles, } from '@material-ui/core/styles';
 import MobileNav from '../../Components/MobileNav/MobileNav';
 
-const StyledButton = withStyles({
-    root: {
-        //   background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
-        borderRadius: 3,
-        background: "rgba(255, 0, 255, 0.15)",
-        color: "rgba(255, 0, 255, 0.35)",
-        height: 48,
-        padding: '0 30px',
-        boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
-    },
-    label: {
-        textTransform: 'capitalize',
-    },
-})(Button);
+// const StyledButton = withStyles({
+//     root: {
+//         //   background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+//         borderRadius: 3,
+//         background: "rgba(255, 0, 255, 0.15)",
+//         color: "rgba(255, 0, 255, 0.35)",
+//         height: 48,
+//         padding: '0 30px',
+//         boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+//     },
+//     label: {
+//         textTransform: 'capitalize',
+//     },
+// })(Button);
 
-const StyledTextField = withStyles({
-    root: {
-        width: "100%",
-    },
-    label: {
-        textTransform: 'capitalize',
-    },
-})(TextField);
+// const StyledTextField = withStyles({
+//     root: {
+//         width: "100%",
+//     },
+//     label: {
+//         textTransform: 'capitalize',
+//     },
+// })(TextField);
 
 
 function Contact() {
@@ -96,7 +96,7 @@ function Contact() {
                         <p className="contactTextContainerBox--text prompt">Follow me on LinkedIn: </p>
                         <div className="contactTextContainerBox--links">
                             <a href="https://www.linkedin.com/in/cenwachukwu" target="_blank" rel="noopener noreferrer" className="a"><i className="fab fa-linkedin-in i"></i></a>
-                            <a href="https://www.linkedin.com/in/cenwachukwu" target="_blank" className="a contactTextContainerBox--text"><span className="contactEmail"> Chiebuka Nwachukwu</span></a>
+                            <a href="https://www.linkedin.com/in/cenwachukwu" target="_blank" rel="noopener noreferrer" className="a contactTextContainerBox--text"><span className="contactEmail"> Chiebuka Nwachukwu</span></a>
                         </div>
                     </div>
                     <div className="contactTextContainerBox">

@@ -1,7 +1,7 @@
 import React from 'react';
 // import '../App.css';
 import './About.css';
-import Header from "../../utils/images/headerpic.JPG";
+// import Header from "../../utils/images/headerpic.JPG";
 
 function About() {
     return (
