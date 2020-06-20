@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Resume from './cenwachukwu.pdf';
 import "./Hamburger.css";
-import '../App.css';
+// import '../App.css';
 
 class Hamburger extends Component {
     render() {

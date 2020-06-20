@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import DrawerToggleButton from './DrawerToggleButton';
-import '../App.css';
-import './Navbar.css';
+// import '../App.css';
+import './Navbar.scss';
 import Resume from './cenwachukwuu-resume.pdf';
 
 function Navbar(props) {
@@ -19,10 +19,11 @@ function Navbar(props) {
                         <div className="NavLinks">
                             <ul className="NavBarLinks">
                                 <li>
-                                    <a href="https://cenwachukwu.com/#About">About</a>
+                                    <a href="#About">About</a>
                                 </li>
+                                
                                 <li>
-                                    <a href="https://cenwachukwu.com/#Portfolio">Portfolio</a>
+                                    <a href="#Portfolio">Portfolio</a>
                                 </li>
                                 <li>
                                     {window.innerWidth < 768 ? <a href={Resume} target="_blank" rel="noopener noreferrer">Resume</a> :

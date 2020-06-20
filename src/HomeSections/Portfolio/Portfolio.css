@@ -45,12 +45,13 @@
 }
   
 .portfolioImage1{
-    background: url(../images/applications.png)no-repeat center center/cover;
+    
+    background: url(../../utils/images/applications.png)no-repeat center center/cover;
   
 }
   
 .portfolioImage2{
-    background: url(../images/blog.png)no-repeat center center/cover;
+    background: url(../../utils/images/blog.png)no-repeat center center/cover;
   
 }
 

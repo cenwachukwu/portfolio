@@ -1,14 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../App.css';
+// import '../App.css';
 import './Home.css';
-import Navbar from '../Navbar/Navbar';
-import MobileNav from '../MobileNav/MobileNav'
-import About from '../About/About';
-import Portfolio from '../Portfolio/Portfolio';
-import Footer from '../Footer/Footer';
+import Navbar from '../../Components/Navbar/Navbar';
+import MobileNav from '../../Components/MobileNav/MobileNav'
+import About from '../../HomeSections/About/About';
+
+import Portfolio from '../../HomeSections/Portfolio/Portfolio';
+import Footer from '../../Components/Footer/Footer';
 // import Header from "../images/IMG_0015.jpg";
-import Header from "../images/GA14Nov-FullRes-4.jpg";
+// import Header from "../images/GA14Nov-FullRes-4.jpg";
+import Header from "../../utils/images/GA14Nov-FullRes-4.jpg";
 
 
 function Home() {
@@ -17,13 +19,13 @@ function Home() {
       {/* <Navbar /> */}
       <Navbar/>
       <MobileNav/>
-      <div>
+      <div id="home">
         <div className="aboutCatchPhrase2">
           <h3 className="aboutCatchPhraseHTag">Chiebuka Elizabeth Nwachukwu</h3>
         </div>
         <div className="aboutIconsContainerParent">
           <div className="aboutIconsContainer">
-            <img src={Header} className="CenwachukwuPics" width='800' />
+            <img src={Header} className="CenwachukwuPics" width='800' alt="cenwachukwu"/>
           </div>
         </div>
         <div className="brandStatementContainer">

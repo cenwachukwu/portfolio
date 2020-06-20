@@ -1,9 +1,11 @@
 import React from 'react';
-import '../App.css';
+// import '../App.css';
 import './Resume.css';
-import Navbar from '../Navbar/Navbar';
-import Footer from '../Footer/Footer';
-import ResumePdf from '../MobileNav/cenwachukwu.pdf'
+import Navbar from '../../Components/Navbar/Navbar';
+import Footer from '../../Components/Footer/Footer';
+// import ResumePdf from '../MobileNav/cenwachukwu.pdf'
+import ResumePdf from '../../Components/MobileNav/cenwachukwu.pdf'
+
 
 function Resume() {
   return (

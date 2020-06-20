@@ -93,7 +93,7 @@ li{
 /* ----------- iPad Pro 12.9" ----------- */
 @media only screen and (max-width: 1024px){
     .fixedHeader:before {
-        background: url('../images/headerpic.JPG') no-repeat;
+        background: url('../../utils/images/headerpic.JPG') no-repeat;
         background-size: contain;
         height: 60vh;
     }

@@ -1,12 +1,12 @@
 import React, {useState} from 'react';
 import emailjs from "emailjs-com";
-import '../App.css';
+// import '../App.css';
 import './Contact.css';
-import Navbar from '../Navbar/Navbar';
-import Footer from "../Footer/Footer"
+import Navbar from '../../Components/Navbar/Navbar';
+import Footer from "../../Components/Footer/Footer"
 import { TextField, Button } from '@material-ui/core';
 import { withStyles, } from '@material-ui/core/styles';
-import MobileNav from '../MobileNav/MobileNav';
+import MobileNav from '../../Components/MobileNav/MobileNav';
 
 const StyledButton = withStyles({
     root: {
